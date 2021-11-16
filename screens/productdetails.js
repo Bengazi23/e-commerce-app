@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     },
     addToCart:{
         width: '100%',
-        backgroundColor: "#588b8b",
+        backgroundColor: "#588b9b",
         justifyContent: 'center',
         alignItems: "center",
         marginTop: 10,
