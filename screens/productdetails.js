@@ -148,6 +148,6 @@ const styles = StyleSheet.create({
     },
     addText:{
         color: "#fff",
-        padding: 20,
+        padding: 22,
     },
 })
