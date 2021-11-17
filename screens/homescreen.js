@@ -12,7 +12,7 @@ const homeScreen = () => {
 
             <View style={styles.iconContainer}>
                 <Ionicons name="person-circle-outline" size={32} color="#40916c" onPress={()=> {navigation.navigate("Log in")}} />
-                <Ionicons name="cart-outline" size={32} color="#40916c" onPress={()=> {navigation.navigate("cart")}}/>
+                <Ionicons name="cart-outline" size={31} color="#40916c" onPress={()=> {navigation.navigate("cart")}}/>
             </View>
             
 
