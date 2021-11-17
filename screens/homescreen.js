@@ -12,7 +12,7 @@ const homeScreen = () => {
 
             <View style={styles.iconContainer}>
                 <Ionicons name="person-circle-outline" size={32} color="#40916c" onPress={()=> {navigation.navigate("Log in")}} />
-                <Ionicons name="cart-outline" size={31} color="#40916c" onPress={()=> {navigation.navigate("cart")}}/>
+                <Ionicons name="cart-outline" size={32} color="#40916c" onPress={()=> {navigation.navigate("cart")}}/>
             </View>
             
 
@@ -22,7 +22,7 @@ const homeScreen = () => {
                             
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Docksta table</Text>
+                            <Text style={styles.productName}>mark Cos watch</Text>
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -42,7 +42,7 @@ const homeScreen = () => {
                             
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Ektorp sofa</Text>
+                            <Text style={styles.productName}>fifty five leader watch</Text>
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -63,7 +63,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Poäng armchair</Text>
+                            <Text style={styles.productName}>casio origanal</Text>
+                            <Image source={require('../imgimg\nick-vlachos-tkCGYj4uA1U-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -83,7 +84,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Billy bookcase</Text>
+                            <Text style={styles.productName}>kelvin clien</Text>
+                            <Image source={require('../imgimg\nick-vlachos-tkCGYj4uA1U-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -103,7 +105,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Kallax sofa</Text>
+                            <Text style={styles.productName}>Bengazi watch </Text>
+                            <Image source={require('../imgimg\paul-cuoco-1bpbyVmG19E-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -124,7 +127,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>coffee tables</Text>
+                            <Text style={styles.productName}>carris brwon</Text>
+                            <Image source={require('../img\slashio-photography-fy-JGSH-3N0-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -144,7 +148,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Swedish Desk</Text>
+                            <Text style={styles.productName}>Swedis original watch</Text>
+                            <Image source={require('../img/mambawatches-ukJdqKqFcDA-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -165,7 +170,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Scandinavian Bed</Text>
+                            <Text style={styles.productName}>rolex watch</Text>
+                            <Image source={require('../img/paul-cuoco-1bpbyVmG19E-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -185,7 +191,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Norwegian vase</Text>
+                            <Text style={styles.productName}>beta water resistance watch</Text>
+                            <Image source={require('../img/vvs--KRN2kU9e1s-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
@@ -205,9 +212,10 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Sladda Table</Text>
+                            <Text style={styles.productName}>leather watch </Text>
+                            <Image source={require('../img/mambawatches-ukJdqKqFcDA-unsplash.jpg')} />
                             <View style={styles.rating}>
-                                <Ionicons name="star" size={16} color="#40916c" />
+                                <Ionicons name="star-outline" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
                             </View>
@@ -224,7 +232,8 @@ const homeScreen = () => {
                         
                         </View>
                         <View style={styles.itemInfo}>
-                            <Text style={styles.productName}>Krossa Armchair</Text>
+                            <Text style={styles.productName}>rolex watch</Text>
+                            <Image source={require('../img/mambawatches-ukJdqKqFcDA-unsplash.jpg')} />
                             <View style={styles.rating}>
                                 <Ionicons name="star" size={16} color="#40916c" />
                                 <Ionicons name="star" size={16} color="#40916c" />
